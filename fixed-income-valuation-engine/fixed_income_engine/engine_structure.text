@@ -1,0 +1,9 @@
+## Repository Structure
+fixed_income_engine/
+│
+├── curves.py # Curve instruments, bootstrapping, interpolation, curve object
+├── bonds.py # Bond definition, cashflows, pricing, accrued interest
+├── risk.py # Duration/convexity/DV01/spread duration + validations
+├── scenarios.py # Rate/spread shocks and scenario P&L reports
+├── portfolio.py # Vectorized pricing across portfolios + QC flags
+├── utils.py # Day count, date schedules, validation, shared helpers
