@@ -56,6 +56,7 @@ fixed-income-valuation-engine/
 │   ├── test_risk.py
 │
 ├── requirements.txt
+├── LICENSE.txt
 └── README.md
 ```
 
